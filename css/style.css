@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.nav-item:hover{
+    font-weight: bold;
+    
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.carrosel {
+    max-height: 20rem;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+    margin-right: 7px;
+    
+
+}
+
+.carrosel .item {
+    min-width: 19rem ;
+    height: 19rem;
+    line-height: 19rem;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 10px;
+
+}
+.texto {
+    box-shadow:8px 5px 5px rgb(201, 195, 195) ;
+}

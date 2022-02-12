@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--  CSS  Interno-->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Sushi</title>
+  </head>
+  <body>
+            <!-- Cabeçalho -->
+    <header>
+        <!-- Nav -->  
+        <nav class="navbar navbar-light col-12  bg-light fixed-top" >
+            <div class="container-fluid" style="display: flex;justify-content: space-between;">
+              <a class="navbar-brand" href="#" style="display: flex;justify-content: center;align-items: center;gap: 40px;font-family: 'Comforter', cursive;font-size: 40px;font-weight: bolder;margin-left: 20px;margin-top:10px;">
+                <img src="/imagens/logo.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+                Sushi DevX
+              </a>
+              <ul class="navbar-nav" style="display: flex;flex-direction: row;justify-content: space-around;margin-right: 50px;">
+                <li class="nav-item">
+                  <a style="color: brown;padding: 10px;" class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a style="color: brown;padding: 10px;" class="nav-link" href="#">Clube</a>
+                </li>
+                <li class="nav-item">
+                  <a style="color: brown;padding: 10px;" class="nav-link" href="#">Preços</a>
+                </li>
+                <li class="nav-item">
+                  <a style="color: brown;padding: 10px;" class="nav-link" href="#">Novidade</a>
+                </li>
+                <li class="nav-item">
+                  <a style="color: brown;padding: 10px;" class="nav-link" href="#">Preços</a>
+                </li>
+              </ul>
+            </div>
+            
+        </nav><!--Fim Nav -->
+    </header><!-- Fim Cabeçalho -->
+
+    <main>
+      <!-- Carrosel Principal -->  
+      <section class="m-20">
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide col-12 " data-bs-ride="carousel" style="height: 530px;">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner " style="height: 32em;background-color: transparent;margin-top:6em;">
+            <div class="carousel-item active h-100 w-100 " style="background-image: url(/imagens/carrosel\ \(1\).jpg); background-size:cover; background-repeat: no-repeat;background-position: center;">
+              
+            </div>
+            <div class="carousel-item h-100 w-100"  style="background-image: url(/imagens/carrosel\ \(2\).jpg); background-size:cover; background-repeat: no-repeat;background-position: center;">
+              
+            </div>
+            <div class="carousel-item h-100"  style="background-image: url(/imagens/carrosel\ \(3\).jpg); background-size: cover; background-repeat: no-repeat;background-position: center;">
+              
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div><!--Fim  Carrosel -->  
+      </section><!-- Fim Carrosel  Principal --> 
+      
+      <!-- Texto  e Carrosel de Pratos--> 
+      <section style="margin-bottom: 5rem;">
+        <div class="texto" style="margin: 4rem;text-shadow: 1px 1px #bfc4c9;">
+          <h1 style="color: brown;">Conheça Alguns de Nossos Pratos</h1>
+          <p>Selecionamos 3 pratos para que você conheça um pouco mais sobre eles. Periodicamente trocamos <br> estes itens aqui para que você fique por dentro de cada uma das delícias Sushi DevX.</p>
+        </div>
+
+        <!-- Carrosel  Pratos -->
+        <div class="carrosel">
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(1\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(2\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(3\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(4\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(5\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(6\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(7\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(8\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(9\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(10\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(11\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+          <div class="item" style="background-image: url(/imagens/pratos/prato\ \(12\).jpg);background-size: cover;border-radius: 8px;margin: 4px;"></div>
+
+          
+        </div><!--Fim  Carrosel  Pratos -->
+
+      </section><!--Fim Texto  e Carrosel de Pratos--> 
+    </main>
+    <footer>
+      <!-- Roda Pé --> 
+      <section>
+        <div class="container" style="margin-bottom: 10rem;height: auto;">
+          <div class="row" style="display: flex;flex-direction: row;height: 100px;justify-content: space-around;">
+              <div class="col-md-2 col-sm-6 col-xs-12" style="width: auto;">
+                  <h1 style="font-size: 30px;color: brown;">Institucional</h1>
+                  <ul style="list-style-type: none;margin-left:-20px;">
+                      <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;" href="#">Nossa História</a></li>
+                      <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;"" href="#">Trabalhe Conosco</a></li>
+                      <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;"" href="#">Central de Atendimento</a></li>
+                      <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;"" target="_blank" href="#">Seja um Franqueado</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <h1 style="font-size: 30px; text-decoration: none;color: brown;">Nosso Cardápio</h1>
+                  <ul style="list-style-type: none;margin-left:-10px;">
+                    <li style="margin-bottom: 3px;" ><a style="text-decoration:none;color: black;""  href="#">Tartare de Kani</a></li>
+                    <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;"" href="#">Niguiri Salmão</a></li> 
+                    <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;"" href="#">Max Niguiri Kani</a></li>
+                    <li style="margin-bottom: 3px;"><a style="text-decoration:none;color: black;"" href="#">Temaki Patê Skin</a></li>
+                  </ul>
+              </div>
+              
+          </div>
+        </div>
+      </section><!-- Fim Roda Pé --> 
+
+      <!--Copyright -->
+      <section>
+        <div class="container col-12" style="display: flex;justify-items: center;">
+            <div class="row col-12" style="display: flex;align-items: center;margin-bottom: 5px;gap: 5px;justify-content: space-around;">
+                <div class=" copyright col-md-5" style="justify-content:center;display: flex;margin-top: 50px;">
+                    <p>Copyright 2022 / Sushi DevX © Todos os direitos reservados</p>
+                </div>
+                <div class="col-md-3" style="display: flex;flex-direction: row;justify-content: space-around;gap: 70px;">
+                  <div class=" hidden-sm hidden-xs footer-icon" style="justify-content: center;display: flex;">
+                      <img src="/imagens/logo.png" style="width: 70px;">
+                  </div>
+                  <div class=" objeto-icon" style="justify-content: center;display: flex;">
+                      <a target="_blank" href="https://portal.stackx.com.br/">
+                          <img src="/imagens/StackX.png" style="width: 70px;">
+                      </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </section><!--Fim Copyright -->
+  </footer>    
+
+    
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+    
+  </body>
+</html>
